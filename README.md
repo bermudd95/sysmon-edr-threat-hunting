@@ -22,7 +22,7 @@ This lab focuses on endpoint detection and response (EDR) analysis using granula
 process.pe.original_file_name : "PowerShell.EXE" AND process.command_line : ("*-EncodedCommand*" OR "*-e *")
 ```
 
-## Scenario B: LSASS Memory Dumping
+### Scenario B: LSASS Memory Dumping
 
   * **Telemetry Signal:** Sysmon Event ID 10 where `TargetImage` ends in `lsass.exe` and `GrantedAccess` includes `0x1010` or `0x1F0FFF`.
 
