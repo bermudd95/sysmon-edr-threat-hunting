@@ -30,8 +30,8 @@ process.pe.original_file_name : "PowerShell.EXE" AND process.command_line : ("*-
 
 ## Environment & Tech Stack
 
-  * Endpoints: Windows 11 Enterprise (Sysmon v14 installed with SwiftOnSecurity config)
+  * **Endpoints:** Windows 11 Enterprise (Sysmon v14 installed with SwiftOnSecurity config)
 
-  * Log Ingestion: Windows Event Forwarding (WEF), EVTX Parsing, Elastic Security
+  * **Log Ingestion:** Windows Event Forwarding (WEF), EVTX Parsing, Elastic Security
 
-  * Analysis Tools: PowerShell, CyberChef, Process Hacker / System Informer
+  * **Analysis Tools:** PowerShell, CyberChef, Process Hacker / System Informer
